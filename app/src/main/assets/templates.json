@@ -1,0 +1,50 @@
+[
+  {
+    "id": "t1",
+    "name": "Classic Vanilla",
+    "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400",
+    "basePrice": 15000,
+    "category": "Classic",
+    "defaultDesign": {
+      "shape": "Round",
+      "size": "8\"",
+      "layers": 1,
+      "flavor": {
+        "id": "f1",
+        "name": "Vanilla",
+        "imageUrl": "",
+        "priceExtra": 0,
+        "isVegan": false,
+        "isGlutenFree": false
+      },
+      "decorations": [],
+      "messageText": "",
+      "textColor": "Black",
+      "totalPrice": 15000
+    }
+  },
+  {
+    "id": "t2",
+    "name": "Chocolate Dream",
+    "imageUrl": "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=400",
+    "basePrice": 18000,
+    "category": "Premium",
+    "defaultDesign": {
+      "shape": "Round",
+      "size": "8\"",
+      "layers": 1,
+      "flavor": {
+        "id": "f2",
+        "name": "Chocolate",
+        "imageUrl": "",
+        "priceExtra": 2000,
+        "isVegan": false,
+        "isGlutenFree": false
+      },
+      "decorations": [],
+      "messageText": "",
+      "textColor": "White",
+      "totalPrice": 18000
+    }
+  }
+]

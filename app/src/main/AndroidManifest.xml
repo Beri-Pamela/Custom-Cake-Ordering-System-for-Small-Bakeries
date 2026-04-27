@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Internet access for Firebase -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Camera for cake reference photo upload -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <!-- Biometric (Fingerprint / Face) - Modern way -->
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <application
+        android:name=".CakeApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Thelmapam_project"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Thelmapam_project">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Thelmapam_project" />
+            
+        <activity android:name=".OnboardingActivity" android:exported="false" />
+        <activity android:name=".LoginActivity" android:exported="false" />
+        <activity android:name=".CustomizeActivity" android:exported="false" />
+        <activity android:name=".ImageUploadActivity" android:exported="false" />
+        <activity android:name=".ArPreviewActivity" android:exported="false" />
+        <activity android:name=".OrderDetailsActivity" android:exported="false" />
+        <activity android:name=".SuccessActivity" android:exported="false" />
+        <activity android:name=".AdminDashboardActivity" android:exported="false" />
+
+    </application>
+</manifest>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "164184817208",
+    "project_id": "thelmapam-project",
+    "storage_bucket": "thelmapam-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164184817208:android:99cf1354436efd6ae630cd",
+        "android_client_info": {
+          "package_name": "com.example.thelmapam_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxBPCMLRJ_m5hLpVDYVCjlVio_7HsGacI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

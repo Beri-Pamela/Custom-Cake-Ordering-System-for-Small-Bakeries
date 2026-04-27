@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.thelmapam_project.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.example.thelmapam_project.OrdersFragment"
+        android:label="@string/nav_orders"
+        tools:layout="@layout/fragment_orders" />
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.example.thelmapam_project.ChatFragment"
+        android:label="@string/nav_chat"
+        tools:layout="@layout/fragment_chat" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.thelmapam_project.ProfileFragment"
+        android:label="@string/nav_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <activity
+        android:id="@+id/nav_admin"
+        android:name="com.example.thelmapam_project.AdminDashboardActivity"
+        android:label="Admin Dashboard"
+        tools:layout="@layout/activity_placeholder" />
+</navigation>
